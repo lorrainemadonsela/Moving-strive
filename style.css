@@ -1,0 +1,169 @@
+@font-face{
+    font-family: 'myfont';
+    src: url(Poppins-Black.ttf);
+}
+.pic{
+    font-family: 'bold';
+    src: url(Poppins-Black.ttf);
+    font-size: larger;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container .phone{
+    padding-left: 1000px;
+}
+.email{
+    padding-left: 200px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+    gap: 20px;
+}
+.image{
+    width: 100%;
+    margin-left: auto;
+}
+.underline {
+    text-decoration: underline;
+    color: #f57900;
+}
+.fa-envelope-open-text{
+    height: 30px;
+}
+.fa-phone-volume{
+    height: 30px;
+    width: 10px;
+}
+.riaad{
+    display: flex;
+    gap: 200px;
+    padding-left: 250px;
+    margin-top: 60px;
+}
+.pic{
+    font-size: x-large;
+}
+.left{
+    display: flex;
+    gap: 50px;
+}
+.text{
+    margin-top: 50px;
+}
+.logos{
+    display: flex;
+    padding-left: 200px;
+    gap: 170px;
+    margin-top: 220px;
+}
+.row{
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    margin-top: 220px;
+}
+.services{
+    display: flex;
+    padding-left: 200px;
+    gap: 100px;
+}
+.s1{
+    width: 300px;
+    text-align: center;
+}
+.s2{
+    background-color: rgb(31, 31, 228);
+    width: 300px;
+    text-align: center;
+}
+.s3{
+    width: 300px;
+    text-align: center;  
+}
+.s4{
+    width: 300px;
+    text-align: center;
+}
+.helping{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    gap: 400px;
+}
+.center{
+    padding-left: 100px;
+}
+.video{
+    padding-right: 100px;
+}
+.fa-boxes-packing{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-color: #f57900;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+.fa-warehouse{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+.fa-truck{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-color: #f57900;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+.fa-shield{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-color: #f57900;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+.image{
+    position: relative;
+    color: rgb(2, 2, 2);
+}
+.top-left {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+.verified{
+    display: flex;
+    border: 1px solid;
+    gap: 50px;
+    padding-left:400px;
+}
+.check{
+    padding-right: 400px;
+    width: 80%;
+}
+.fa-check{
+    border: 1px solid black;
+    background-color: #f57900;
+    border-radius: 50px;
+}
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 100px) {
+    .page{
+        flex-wrap: wrap;
+    }
+}
+
