@@ -93,9 +93,12 @@
     align-items: center;
     padding-left: 100px;
     gap: 400px;
+    margin-top: 60px;
 }
 .center{
-    padding-left: 100px;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 60px;
 }
 .video{
     padding-right: 100px;
@@ -106,7 +109,7 @@
     margin-top: 10px;
     background-color: #f57900;
     padding-top: 10px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .fa-warehouse{
     height: 40px;
@@ -114,7 +117,7 @@
     margin-top: 10px;
     background-color: #ffffff;
     padding-top: 10px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .fa-truck{
     height: 40px;
@@ -122,7 +125,7 @@
     margin-top: 10px;
     background-color: #f57900;
     padding-top: 10px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .fa-shield{
     height: 40px;
@@ -130,7 +133,7 @@
     margin-top: 10px;
     background-color: #f57900;
     padding-top: 10px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .image{
     position: relative;
@@ -143,27 +146,263 @@
 }
 .verified{
     display: flex;
-    border: 1px solid;
     gap: 50px;
     padding-left:400px;
+    margin-top: 100px;
 }
 .check{
     padding-right: 400px;
     width: 80%;
 }
 .fa-check{
-    border: 1px solid black;
     background-color: #f57900;
     border-radius: 50px;
 }
-
-
-
-
-/* Responsive */
-@media screen and (max-width: 100px) {
-    .page{
-        flex-wrap: wrap;
-    }
+.online{
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+}
+.pictures{
+    width: 100%;
+    margin-top: 100px;
+    border: 1px solid;
+}
+.cont{
+    display: flex;
+    border: 1px solid;
+}
+.left-info{
+    text-align: center;
+    background-color: #f57900;
+    color: #ffffff;
+    width: 600px;
+}
+.right-info{
+    background-color: blue;
+    color: #ffffff;
+    width: 1400px;
+    padding-left: 40px;
+}
+.form column{
+    display: flex;
+    column-gap: 5px;
+    font-size: larger;
+}
+.column button{
+    color: #ffffff;
+    background-color: #f57900;
+}
+.testimonials{
+    text-align: center;
+    margin-top: 50px;
+}
+.reviews{
+    display: flex;
+    text-align: center;
+}
+.fa-quote-left{
+    background-color: blue;
+    color: #ffffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+.name{
+    color: #f57900;
+}
+.updates{
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+}
+.email2{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    padding-left: 600px;
+    gap: 500px;
+    font-size: x-large;
+}
+.email2 button{
+    color: #ffffff;
+    background-color: #f57900;
+    font-size: x-large;
+}
+.article{
+    text-align: center;
+    margin-top: 250px;
+}
+.blog{
+    display: flex;
+    gap: 80px;
+    padding-left: 80px;
+    margin-top: 60px;
+    width: 80%;
+}
+.discover{
+    display: flex;
+    border: 1px solid;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    gap: 450px;
+    height: 400px;
+    background-color: #f57900;
+    color: #ffffff;
+    font-size: x-large;
+}
+.discover button{
+    background-color: black;
+    color: #ffffff;
+    font-size: x-large;
+}
+.one{
+    display: flex;
+    border: 1px solid;
+    padding-left: 400px;
+    gap: 200px;
+    color: #ffffff;
+    height: 300px;
+}
+.contact{
+    margin-top: 50px;
+}
+.explore{
+    margin-top: 50px;
+}
+.legal{
+    margin-top: 50px;
+}
+.icons{
+    margin-top: 60px;
+}
+.fa-facebook-f{
+    color: #ffffff;
+}
+.fa-linkedin-in{
+    color: #ffffff;
+}
+.fa-youtube{
+    color: #ffffff;
+}
+.line{
+    display: flex;
+    color: #a38484;
+    padding-left: 200px;
+}
+.fa-arrow-up{
+    color: #ffffff;
+    background-color: #f57900;
+    border-radius: 30px;
+}
+.copyright{
+    text-align: center;
+    color: #ffffff;
+    align-items: center;
+}
+.footer{
+    background-color: rgb(48, 44, 44);
+    height: 600px;
 }
 
+
+
+
+
+@media screen  and (max-width: 500px) {
+    .container{
+        width: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 10px;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .riaad{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .helping{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .verified{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .online{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .pictures{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .testimonials{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .reviews{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .updates{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .email2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .blog{
+        display: flex;
+        flex-wrap: wrap;
+        width: 10px;
+    }
+    .discover{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+}
